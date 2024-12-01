@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url>
+	<loc>https://stellar-verve-438308-c0.web.app/</loc>
+	<lastmod>2024-11-29T15:21:53+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://stellar-verve-438308-c0.web.app/index.html</loc>
+	<lastmod>2024-11-29T15:21:53+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://stellar-verve-438308-c0.web.app/about.html</loc>
+	<lastmod>2024-11-29T15:21:53+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://stellar-verve-438308-c0.web.app/event/schedule.html</loc>
+	<lastmod>2024-11-29T15:21:53+01:00</lastmod>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://stellar-verve-438308-c0.web.app/images/event1.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://stellar-verve-438308-c0.web.app/images/event2.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://stellar-verve-438308-c0.web.app/images/event3.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://stellar-verve-438308-c0.web.app/images/event4.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://stellar-verve-438308-c0.web.app/images/event5.jpg</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://stellar-verve-438308-c0.web.app/games/catalog.html</loc>
+	<lastmod>2024-11-29T15:21:53+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://stellar-verve-438308-c0.web.app/reserve-a-game.html</loc>
+	<lastmod>2024-11-29T15:21:53+01:00</lastmod>
+	<priority>1.0</priority>
+	<image:image>
+			<image:loc>https://stellar-verve-438308-c0.web.app/images/game1.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://stellar-verve-438308-c0.web.app/images/game2.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://stellar-verve-438308-c0.web.app/images/game3.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://stellar-verve-438308-c0.web.app/images/game4.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://stellar-verve-438308-c0.web.app/images/game5.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://stellar-verve-438308-c0.web.app/images/best-seller.png</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://stellar-verve-438308-c0.web.app/confidentiality.html</loc>
+	<lastmod>2024-11-29T15:21:53+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://stellar-verve-438308-c0.web.app/terms.html</loc>
+	<lastmod>2024-11-29T15:21:53+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://stellar-verve-438308-c0.web.app/event/details/monopoly-weekly.html</loc>
+	<lastmod>2024-11-29T15:21:54+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://stellar-verve-438308-c0.web.app/event/details/pokemon-local.html</loc>
+	<lastmod>2024-11-29T15:21:54+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+</urlset>

@@ -1,0 +1,97 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    margin-top: auto;
+}
+.container {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2rem;
+    box-sizing: border-box;
+    width: calc(100% - 40px);
+    margin: 0 auto;
+}
+
+.official-site {
+    text-decoration: none;
+}
+
+.container img {
+    width: 800px;
+    height: 400px;
+    max-height: 60vw;
+    max-width: 50rem;
+    margin: 0 2rem 0 0;
+}
+
+.content {
+    width: 70%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.product-header {
+    display: flex;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    justify-content: space-between;
+}
+
+.product-header a {
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.rating {
+    font-size: 1.25rem;
+}
+
+.product-name p {
+    margin: 0;
+}
+
+.carousel-container {
+    padding-horizontal: 2rem;
+    padding-bottom: 2rem;
+}
+
+.card img {
+    width: 100%;
+    max-width: 450px;
+    max-height: 250px;
+    height: 20vw;
+}
+.card a {
+    text-decoration: none;
+    color: inherit;
+    outline: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .container img {
+        padding: 0 0 2rem 0;
+        margin: auto;
+        width: 600px;
+        max-width: none
+    }
+
+    .content {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container img {
+        width: 100%;
+    }
+}

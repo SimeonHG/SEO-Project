@@ -1,0 +1,139 @@
+/* Common styles for all pages */
+:root {
+  --primary-color: #3131ce;
+  --secondary-color: #2d2b6d;
+  --accent-color: #6779f4;
+  --text-color: #efefff;
+  --background-color: #4362b7;
+  --button-color: #ffc107;
+  --button-hover-color: #ffca28;
+}
+html, body{
+  height: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px, 0px;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+nav ul li a:hover {
+  color: var(--button-color);
+}
+
+footer {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  padding: 10px;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+footer ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+footer ul li a:hover {
+  color: var(--button-color);
+}
+
+footer p {
+  text-align: center;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 7rem;
+  border: none;
+  height: 2.5rem;
+  padding: 10px 20px;
+  background-color: var(--button-color);
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--button-hover-color);
+}
+
+.carousel-container {
+  max-width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.card {
+  flex: 0 0 33.33%;
+  text-align: center;
+  padding: 0 2rem;
+  box-sizing: border-box;
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 1rem;
+}
+
+.dots-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.dot {
+  display: inline-block;
+  width: 1.2rem;
+  height: 1.2rem;
+  background-color: #ccc;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #777;
+}

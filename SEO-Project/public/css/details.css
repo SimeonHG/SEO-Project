@@ -1,0 +1,139 @@
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+footer {
+    margin-top: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 2rem;
+    box-sizing: border-box;
+    width: calc(100% - 40px);
+    margin: 0 auto;
+}
+
+.image-container {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+}
+
+.image {
+    width: 900px;
+    height: 450px;
+    border-radius: 12px;
+    margin: auto;
+}
+
+.image-container img {
+    width: 100%;
+    max-height: 50vh;
+    border-radius: 12px;
+}
+
+.content {
+    box-sizing: border-box;
+    padding-top: 1rem;
+}
+
+.event-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    border: solid var(--secondary-color);
+    border-width: 2px 0;
+    font-size: 1.25rem;
+
+    padding: 1rem;
+    list-style-type: none;
+    display: flex;
+}
+
+.event-details span {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.event-details a {
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+
+
+.location {
+    color: var(--button-color);
+}
+.entry {
+    color: var(--button-color);
+}
+.date {
+    color: var(--button-color);
+}
+
+.event-name {
+    color: var(--button-color);
+}
+
+.event-name p {
+    margin: 0;
+}
+
+.description {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 1.25rem;
+    border: solid var(--secondary-color);
+    border-width: 0 0 2px 0;
+
+}
+
+.map {
+    width: 100%;
+    max-width: 960px;
+    position: relative;
+    margin: 0 auto;
+    height: 30rem;
+    border-radius: 1rem;
+
+    padding-top: 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .event-details {
+        flex-direction: column;
+    }
+
+    .event-details-item {
+        padding: 0.25rem;
+    }
+
+    .content {
+        text-align: center;
+    }
+
+    .image {
+        width: 900px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .image {
+        width: 660px;
+        height: 275px;
+    }
+
+}
